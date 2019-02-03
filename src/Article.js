@@ -4,10 +4,10 @@ import './Article.css';
 
 const Article = (props) => (
   <div>
-    <h1>{props.title}</h1>
-    <h4>{props.date}</h4>
-    <h3>{props.author}</h3>
-    <p>{props.children}</p>
+  	<h1>{props.title}</h1>
+  	<a rel = {props.author} href = "/author"> {props.author}  </a>
+    <time datetime = {props.date} >{props.date}</time>
+    <article>{props.children}</article>
   </div>
 );
 

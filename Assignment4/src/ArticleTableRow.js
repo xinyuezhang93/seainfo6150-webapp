@@ -41,7 +41,7 @@ class ArticleTableRow extends React.Component {
           <label>{this.title}</label>
         </td>
         <td>{selectedStatus}</td>
-        <td><a rel = {this.author} href = "/author"> {this.author}</a></td>
+        <td><a id = "aut" rel = {this.author} href = {"/author/" + this.author}>{this.author}</a></td>
         <td width = "11%" ><time datetime = {this.date} >{this.date}</time></td>
         <td>{this.shortText}</td>
       </tr>

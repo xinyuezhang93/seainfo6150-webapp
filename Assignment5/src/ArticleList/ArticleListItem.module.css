@@ -1,0 +1,39 @@
+[group] {
+    border: 2px solid #ca0000;
+    margin: 5%;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    background-color: #eeeeee;
+    text-align: right;
+    height: auto;
+    font-size: 1.08em;
+    
+
+}
+h1 {
+    margin-bottom: 0;
+    text-align: left;
+    margin-top: 25px;
+    color: #ca0000;
+
+}
+p {
+    margin-top: 0;
+    text-align: left;
+    margin-bottom: 60px;
+    font-size: 1.73em;
+}
+
+a {
+    font-style: oblique;
+    text-decoration: none;
+    color: black;
+    font-size: 1.7em;
+}
+
+time {
+    font-weight: bold;
+    font-size: 1.7em;
+}
+

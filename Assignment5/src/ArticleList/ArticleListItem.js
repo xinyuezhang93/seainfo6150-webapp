@@ -1,4 +1,4 @@
-import "./ArticleListItem.module.css";
+import styles from "./ArticleListItem.module.css";
 import React from 'react';
 import PropTypes from 'prop-types';
 
@@ -16,7 +16,7 @@ class ArticleListItem extends React.Component {
 
     render() {
         return(
-            <div group = "list_item">
+            <li className = {styles.list_item}>
                 
                 <h1>{this.props.title}</h1>
                 <p>{this.props.shortText}</p>
@@ -24,7 +24,7 @@ class ArticleListItem extends React.Component {
                 <br></br>
                 <time dateTime = {this.props.year}>{this.props.date}</time>
                 
-            </div>
+            </li>
         );
     }
 }

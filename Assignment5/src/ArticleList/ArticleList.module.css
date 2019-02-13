@@ -1,4 +1,4 @@
-[container] {
+.article_list {
     background-color: #999999;
     border: 2px dashed #58595b;
     width: 90%;
@@ -7,3 +7,6 @@
     z-index: 1;
     font-family: Sans-serif;
 } 
+ul {
+    list-style: none;
+}

@@ -1,10 +1,13 @@
-import './ArticleList.module.css';
+import styles from './ArticleList.module.css';
 import React from 'react';
 import PropTypes from 'prop-types';
 import ArticleListItem from './ArticleListItem';
 
+
+
 let ArticleList = ({ articles }) => (
-    <div container = "container">
+  <div className = {styles.article_list}>
+  <ul>
     {
         // this iterates through the articles JSON and
         // calls your ArticleListItem component for each article
@@ -18,8 +21,9 @@ let ArticleList = ({ articles }) => (
             shortText={article.shortText}
           />
         })
-      } 
-      </div>
+      }
+    </ul>
+    </div>
 );
 
 ArticleList.propTypes = {

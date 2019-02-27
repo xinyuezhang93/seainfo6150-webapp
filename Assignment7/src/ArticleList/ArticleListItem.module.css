@@ -1,0 +1,49 @@
+.list_item {
+    border: 2px solid #ca0000;
+    margin: 5%;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    text-align: right;
+    height: auto;
+    width:auto;
+    background-image: linear-gradient(
+    to right,
+    pink,
+    white 20%
+  );
+}
+h1 {
+    margin-bottom: 0;
+    text-align: left;
+    margin-top: 25px;
+    color: #ca0000;
+    font-size: 25px;
+
+}
+p {
+    margin-top: 0;
+    text-align: left;
+    margin-bottom: 60px;
+    font-size: 21px;
+    
+}
+
+a {
+    font-style: oblique;
+    text-decoration: none;
+    color: black;
+    font-size: 21px;
+
+}
+
+time {
+    font-weight: bold;
+    font-size: 21px;
+
+}
+
+.upper_image {
+    text-align: left;
+    padding-top: 10px;
+}

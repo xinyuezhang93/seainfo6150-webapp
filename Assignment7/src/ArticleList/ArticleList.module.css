@@ -1,0 +1,14 @@
+.article_list {
+    background-color: #999999;
+    border: 2px dashed #58595b;
+    margin: 55px auto;
+    height: auto;
+    width:100%;
+    z-index: 1;
+    font-family: Sans-serif;
+} 
+
+.grid_sys {
+    display: inline-grid;
+    grid-template-columns: 33% 33% 33%;
+}

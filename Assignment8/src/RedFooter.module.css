@@ -1,0 +1,20 @@
+.red_footer {
+    background-color: #ca0000;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 200px;
+    width: 90%;
+    color:white;
+    padding-left:5%;
+    padding-right: 5%;
+}
+
+.footer_time {
+    font-size: 1em;
+    font-weight: lighter;
+}
+address {
+    font-style: normal;
+
+}
